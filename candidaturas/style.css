@@ -69,3 +69,5 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,su
 .directory-source{margin:28px 0 0}
 
 .back-home{font-size:14px;color:#2f3a4a;text-decoration:none;white-space:nowrap}.back-home:hover{text-decoration:underline}
+
+.page-back{display:inline-flex;align-items:center;gap:.5rem;color:#2f3a4a;font-size:.875rem;font-weight:600;text-decoration:none;margin-bottom:1.5rem}.page-back:hover{text-decoration:underline}.page-back:focus-visible{outline:2px solid #2f3a4a;outline-offset:4px}
