@@ -1,0 +1,7 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#04302B"></rect>
+    <rect x="0" y="0" width="1200" height="120" fill="#00BFA5"></rect>
+    <text x="600" y="420" font-family="Archivo, Helvetica, sans-serif" font-size="200" font-weight="900" fill="#00BFA5" text-anchor="middle">NE</text>
+    <rect x="450" y="500" width="300" height="26" rx="13" fill="#F4585F"></rect>
+    <rect x="510" y="560" width="180" height="18" rx="9" fill="#9DB3AE"></rect>
+  </svg>
