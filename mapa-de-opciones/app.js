@@ -197,10 +197,10 @@ function renderMap() {
   const province = shapes.find(shape => shape.id === selectedProvince);
   get('map-caption').textContent = province ? province.name + ' · Congreso' : 'Selecciona una provincia en el mapa o en la lista.';
   get('map-legend').textContent = activePath === 'abstencion'
-    ? 'Rojo · La abstención activa puede ejercerse en cualquier provincia.'
+    ? 'La abstención activa puede ejercerse en cualquier provincia.'
     : activePath === 'todos'
-      ? 'Dorado · Consulta las candidaturas y la abstención activa en la provincia que elijas.'
-      : 'El color del bloque indica presencia de candidaturas clasificadas en esa opción. El tono más intenso destaca la provincia que elijas.';
+      ? 'Consulta las candidaturas y la abstención activa en la provincia que elijas.'
+      : 'El color del bloque indica presencia de candidaturas clasificadas en esa opción.';
 }
 
 function partyCard(candidate) {
