@@ -16,3 +16,14 @@
 .province-shape:focus{outline:none}.province-shape.selected{stroke:white;stroke-width:1.4}.province-shape:focus-visible{outline:none;stroke:#2f3a4a;stroke-width:3.5}
 .share-scope{margin-bottom:20px}.share-scope>p:first-child{font-weight:650;margin-bottom:9px}.share-scope-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.share-scope-options button{min-height:44px;border:1px solid #c5ceda;border-radius:8px;background:white;padding:9px 10px;font-size:.85rem;line-height:1.4}.share-scope-options button[aria-pressed=true]{border-color:#2f3a4a;background:#e8ecf2;font-weight:700}.share-scope-options button:disabled{opacity:.45;cursor:default}.share-scope>.small{margin-top:8px}#explore{scroll-margin-top:24px}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
+
+/* Móvil: las cinco opciones siempre visibles, sin carrusel horizontal. */
+@media(max-width:760px){
+  #path-filters{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;overflow:visible;scroll-snap-type:none;margin:0 0 20px;padding:0}
+  #path-filters .path-button{min-width:0;min-height:68px;flex-direction:row;align-items:center;gap:9px;padding:11px;scroll-snap-align:none}
+  #path-filters .path-button[aria-pressed=true]{padding:10px}
+  #path-filters .path-number{flex-shrink:0;font-size:1.25rem}
+  #path-filters .path-button strong{min-width:0;font-size:.8rem;line-height:1.35;overflow-wrap:break-word}
+  #path-filters .path-button:last-child{grid-column:1/-1;min-height:56px}
+  .map-filters .compact-path:last-child{grid-column:auto}
+}

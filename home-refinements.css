@@ -1,0 +1,4 @@
+.site-footer .home-legacy-link{display:inline-block;margin-top:12px;font-family:Manrope,system-ui,sans-serif;font-size:12px;line-height:1.5;color:#505660;text-decoration:underline;text-underline-offset:3px}
+.site-footer .home-legacy-link:hover{color:#111}
+.site-footer .home-legacy-link:focus-visible{outline:2px solid #2f3a4a;outline-offset:4px}
+@media(max-width:760px){.site-footer .home-legacy-link{display:inline-flex;align-items:center;min-height:44px}}
