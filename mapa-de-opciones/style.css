@@ -27,3 +27,7 @@
   #path-filters .path-button:last-child{grid-column:1/-1;min-height:56px}
   .map-filters .compact-path:last-child{grid-column:auto}
 }
+
+/* Filtros junto a sus resultados, después del mapa en móvil. */
+.explore-grid>.results{min-width:0}.results .map-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.results .compact-path:last-child{grid-column:auto}
+
