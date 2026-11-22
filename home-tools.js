@@ -34,6 +34,8 @@ function arrangeDraftHome() {
       <p class="home-card-description">Consulta cada opción y descubre sus candidaturas en tu provincia.</p>
       <span class="home-card-action">Explorar las cinco vías</span>
     </div>`;
+  const arrow = candidates.querySelector('.home-card-action svg');
+  if (arrow) newCard.querySelector('.home-card-action').append(' ', arrow.cloneNode(true));
   electionCards.append(candidates, newCard);
   election.append(electionCards);
   cards.replaceWith(election, resources);
