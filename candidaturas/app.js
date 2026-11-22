@@ -166,3 +166,7 @@ $('copy-province-link').addEventListener('click', async () => {
 });
 
 render();
+
+// Abrir una candidatura enlazada desde el mapa de opciones.
+const requestedParty = new URLSearchParams(location.search).get('partido');
+if (partyOptions.some(party => party.id === requestedParty)) {view(true);selectParty(requestedParty);}

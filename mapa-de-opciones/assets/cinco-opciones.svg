@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 180" fill="none">
+  <defs><filter id="shadow" x="-45%" y="-40%" width="190%" height="200%"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#2f3a4a" flood-opacity=".13"/></filter></defs>
+  <circle cx="165" cy="91" r="112" stroke="#2f3a4a" stroke-opacity=".09"/>
+  <circle cx="165" cy="91" r="82" stroke="#2f3a4a" stroke-opacity=".06"/>
+  <g filter="url(#shadow)">
+    <g transform="translate(25 54) rotate(-24 40 58)">
+      <rect width="74" height="99" rx="12" fill="#e2e7ee" stroke="#c5cdd9"/>
+      <g stroke="#46546a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m19 39 18-9 18 9H19ZM23 42v22m9-22v22m10-22v22m9-22v22M18 68h38"/></g>
+      <text x="37" y="88" text-anchor="middle" fill="#46546a" font-family="Georgia,serif" font-size="13">1</text>
+    </g>
+    <g transform="translate(77 29) rotate(-12 40 58)">
+      <rect width="74" height="99" rx="12" fill="#f5f4f8" stroke="#ccd0db"/>
+      <g stroke="#687086" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M18 39h35l-8-8M56 60H21l8 8M22 34v10m30 11v10"/></g>
+      <text x="37" y="88" text-anchor="middle" fill="#687086" font-family="Georgia,serif" font-size="13">2</text>
+    </g>
+    <g transform="translate(179 29) rotate(12 40 58)">
+      <rect width="74" height="99" rx="12" fill="white" stroke="#c5cdd9"/>
+      <g stroke="#526075" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M26 34v20h27v13M21 57v10m5-13h-5m7-20h20v20M21 61h32"/></g>
+      <text x="37" y="88" text-anchor="middle" fill="#526075" font-family="Georgia,serif" font-size="13">4</text>
+    </g>
+    <g transform="translate(231 54) rotate(24 40 58)">
+      <rect width="74" height="99" rx="12" fill="#2f3a4a" stroke="#2f3a4a"/>
+      <g stroke="white" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M23 66V29l24-5v42M18 68h37M30 34v25M40 47h1"/></g>
+      <text x="37" y="88" text-anchor="middle" fill="white" font-family="Georgia,serif" font-size="13">5</text>
+    </g>
+    <g transform="translate(128 17)">
+      <rect width="74" height="108" rx="12" fill="white" stroke="#bfc9d6"/>
+      <g stroke="#526c62" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M37 72V47m0 10c-13 0-18-9-18-18 12 0 18 6 18 18Zm0-7c0-11 7-18 19-18 0 12-7 18-19 18ZM28 73h18"/></g>
+      <text x="37" y="94" text-anchor="middle" fill="#526075" font-family="Georgia,serif" font-size="13">3</text>
+    </g>
+  </g>
+</svg>

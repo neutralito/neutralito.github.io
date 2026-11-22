@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Mapa de opciones políticas para el 29N · Neutralito</title><link rel="stylesheet" href="style.css?v=20261122"><meta name="description" content="Cinco formas de posicionarte ante el sistema. Explora las opciones políticas y las candidaturas de tu provincia para el 29N."><link rel="canonical" href="https://neutralito.github.io/mapa-de-opciones/"><link rel="icon" href="/favicon.png"><meta property="og:title" content="Mapa de opciones políticas para el 29N · Neutralito"><meta property="og:description" content="Cinco formas de posicionarte ante el sistema. Explora las opciones de tu provincia."><meta property="og:type" content="website"><meta property="og:url" content="https://neutralito.github.io/mapa-de-opciones/"><meta property="og:image" content="https://neutralito.github.io/images/logo-neutralito.png"><meta name="twitter:card" content="summary"><script defer src="https://cloud.umami.is/script.js" data-website-id="13af0f9a-fc11-43ca-8382-d854a2ad8fe9"></script><link rel="stylesheet" href="/navigation.css?v=20261122"></head>
+<body>
+<header class="site-header"><a class="brand" href="/"><img src="/images/logo-neutralito.png" alt="">NEUTRALITO</a><nav><a href="/">Inicio</a><a href="https://t.me/neutralito">Telegram</a></nav></header>
+<main class="tool">
+  <a class="back-home" href="/">← Volver al inicio</a>
+  <section class="tool-hero"><h1>Mapa de opciones<br><span>políticas para el 29N</span></h1><p class="lead">Cinco formas de posicionarte ante el sistema.<br>Consulta el argumento de cada opción y descubre qué candidaturas encajan en cada bloque en tu provincia.</p></section>
+  <section aria-label="Cinco formas de posicionarme ante el sistema"><div id="path-filters" class="path-filters" aria-label="Filtrar por vía política"></div></section>
+  <section id="path-explanation" class="explanation" aria-live="polite" tabindex="-1"></section>
+  <section id="explore" class="explore" aria-labelledby="explore-title"><div class="section-heading"><div><h2 id="explore-title">Explora las opciones de tu provincia</h2></div></div>
+    <div class="map-filter-bar"><p>Filtra las candidaturas por opción</p><div id="map-filters" class="map-filters" aria-label="Filtrar las candidaturas del mapa"></div></div>
+    <div class="explore-grid"><div class="map-panel"><label for="province">Elige tu provincia</label><select id="province"></select><div id="province-map" class="map"></div><p id="map-caption" class="map-caption"></p><p class="small"><span class="map-legend-dot" aria-hidden="true"></span><span id="map-legend">El color indica presencia de candidaturas del bloque.</span></p></div>
+    <div class="results"><div class="result-heading"><p id="result-filter" class="eyebrow"></p><h3 id="province-title"></h3><p id="result-summary" role="status"></p></div><div id="candidate-list"></div></div></div>
+  </section>
+  <section class="share-panel" aria-labelledby="share-heading">
+    <div><p class="eyebrow">COMPARTE LAS OPCIONES</p><h2 id="share-heading">¿Con quién lo comentarías?</h2><p>Elige qué quieres compartir.</p><a href="https://neutralito.github.io/candidaturas/">Consultar la guía completa de candidaturas</a></div>
+    <div>
+      <div class="share-scope"><div class="share-scope-options" aria-label="Contenido que quiero compartir"><button type="button" data-share-scope="tool" aria-pressed="false">La herramienta</button><button type="button" data-share-scope="block" aria-pressed="false">Este bloque</button><button type="button" data-share-scope="province" aria-pressed="false">Esta provincia</button><button type="button" data-share-scope="selection" aria-pressed="false">Bloque y provincia</button></div><p id="share-scope-hint" class="small">Elige un bloque o una provincia en el mapa para activar esas opciones.</p></div>
+      <div class="share-preview"><p id="share-preview-title"></p><p id="share-preview-text"></p></div>
+      <button id="share-submit" type="button" class="primary-button">Compartir</button><p id="share-status" role="status" class="small"></p>
+    </div>
+  </section>
+</main><footer>Neutralito · Explora las opciones. Entiende el sistema. Forma tu criterio.</footer>
+<script src="/candidaturas/assets/map-data.js"></script><script src="/candidaturas/assets/directory-data.js"></script><script src="app.js?v=20261122"></script>
+<script defer src="/navigation.js?v=20261122"></script></body></html>
